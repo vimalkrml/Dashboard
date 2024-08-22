@@ -40,5 +40,24 @@ export default {
     Trades,
     Overview,
   },
+  data() {
+    return {
+      previousWidth: window.innerWidth,
+    };
+  },
+  methods: {
+    handleResize() {
+      const currentWidth = window.innerWidth;
+      if (this.previousWidth !== currentWidth) {
+        window.location.reload();
+      }
+    },
+  },
+  created() {
+    window.addEventListener("resize", this.handleResize);
+  },
+  destroyed() {
+    window.removeEventListener("resize", this.handleResize);
+  },
 };
 </script>
