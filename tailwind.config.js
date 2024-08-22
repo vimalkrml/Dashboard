@@ -15,7 +15,8 @@ module.exports = {
         'sidebar': '#9B76D6',
         'accounts': '#FCFCFD',
         'links': '#F2F4F7',
-        'button': '#F1EBF9'
+        'button': '#F1EBF9',
+        'active': '#BEFB7A',
       },
       borderColor: {
         'active': '#BEFB7A',

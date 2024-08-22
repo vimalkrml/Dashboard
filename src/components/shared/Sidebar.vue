@@ -8,7 +8,7 @@
         type="button"
         aria-labelledby="Menu"
         @click="toggleSidebar"
-        class="text-white bg-gray-800 p-2 rounded-full"
+        class="bg-sidebar text-active p-2 rounded-full"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
