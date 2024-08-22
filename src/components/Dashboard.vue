@@ -1,0 +1,44 @@
+<template>
+  <div class="font-inter w-full h-screen flex">
+    <div class="lg:w-2/12 h-full">
+      <Sidebar />
+    </div>
+    <div class="w-full lg:w-10/12 h-ful">
+      <Navbar />
+      <div
+        class="flex flex-col lg:flex-row pl-4 pr-4 py-4 xl:pl-6 xl:py-6 xl:pr-8 gap-4 xl:gap-6"
+      >
+        <div class="lg:w-9/12 xl:w-links 2xl:w-8/12">
+          <Links class="mb-4 xl:mb-6" />
+          <Overview />
+        </div>
+        <div
+          class="lg:w-3/12 xl:w-accounts 2xl:w-4/12 flex flex-col gap-4 xl:gap-6"
+        >
+          <Accounts />
+          <Trades />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import Sidebar from "./shared/Sidebar.vue";
+import Navbar from "./shared/Navbar.vue";
+import Links from "./shared/Links.vue";
+import Accounts from "./shared/Accounts.vue";
+import Trades from "./shared/Trades.vue";
+import Overview from "./shared/Overview.vue";
+
+export default {
+  components: {
+    Sidebar,
+    Navbar,
+    Links,
+    Accounts,
+    Trades,
+    Overview,
+  },
+};
+</script>
