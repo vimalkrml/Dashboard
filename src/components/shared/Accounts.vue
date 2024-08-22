@@ -1,6 +1,6 @@
 <template>
   <div
-    class="text-inner font-medium p-3 xl:p-4 border-2 border-links rounded-lg flex flex-col gap-4.5"
+    class="text-inner font-medium p-3 xl:p-4 border-2 border-links rounded-lg flex flex-col gap-4.5 2xl:h-fit"
   >
     <h2 class="text-sm">Trading Accounts</h2>
     <div

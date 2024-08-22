@@ -1,6 +1,6 @@
 <template>
   <div
-    class="text-inner font-medium p-4 border-2 border-links rounded-lg flex flex-col gap-4.5"
+    class="text-inner font-medium p-4 border-2 border-links rounded-lg flex flex-col gap-4.5 2xl:h-fit"
   >
     <h2 class="text-sm">Open Trades</h2>
 

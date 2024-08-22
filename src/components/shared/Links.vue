@@ -2,7 +2,7 @@
   <div
     class="text-inner font-medium p-3 xl:p-4 border-2 border-links rounded-lg"
   >
-    <h2 class="text-sm pb-4 xl:pb-6">Quick Links</h2>
+    <h2 class="text-sm xl:pb-6">Quick Links</h2>
 
     <ul class="flex flex-wrap gap-2 leading-4">
       <li

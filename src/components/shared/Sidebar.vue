@@ -1,5 +1,5 @@
 <template>
-  <div class="relative h-full">
+  <div class="h-full">
     <div
       v-if="!isSidebarOpen && !isLgScreen"
       class="fixed top-4 right-4 z-50 lg:hidden"

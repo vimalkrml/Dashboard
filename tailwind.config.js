@@ -53,6 +53,7 @@ module.exports = {
         'accounts': '326px',
         'sidebar': '18%'
       },
+
     },
   },
   variants: {
