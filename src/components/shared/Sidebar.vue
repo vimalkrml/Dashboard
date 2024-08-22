@@ -5,6 +5,8 @@
       class="fixed top-4 right-4 z-50 lg:hidden"
     >
       <button
+        type="button"
+        aria-labelledby="Menu"
         @click="toggleSidebar"
         class="text-white bg-gray-800 p-2 rounded-full"
       >

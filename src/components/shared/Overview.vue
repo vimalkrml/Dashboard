@@ -23,8 +23,14 @@
     </div>
 
     <div class="flex items-center gap-4 px-6 text-sm lg:text-base">
-      <button class="text-button">Monthly</button>
-      <button class="bg-button py-1 lg:py-2 px-3 lg:px-4 rounded-lg">
+      <button type="button" aria-label="Monthly" class="text-button">
+        Monthly
+      </button>
+      <button
+        type="button"
+        aria-label="Yearly"
+        class="bg-button py-1 lg:py-2 px-3 lg:px-4 rounded-lg"
+      >
         Yearly
       </button>
     </div>
